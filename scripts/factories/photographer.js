@@ -7,7 +7,7 @@ function photographerFactory(data) {
         const article = document.createElement( 'article' );
         // Lien cliquable avec image et titre
         const a = document.createElement('a');
-        a.href = `photographer.html?name=${name}`;
+        a.href = `photographer.html?name=${id}`;
         const img = document.createElement( 'img' );
         img.setAttribute("src", picture)
         img.setAttribute("alt", "");
